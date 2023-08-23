@@ -5,7 +5,7 @@ const notas = [10, 9, 10, 8, 7.5, 6, 5.5, 8];
 
 let media = 0;
 
-for (i = 0; i < notas.length; i++){
+for (let i = 0; i < notas.length; i++){
     media += notas[i]
 };
 media = media / notas.length;
